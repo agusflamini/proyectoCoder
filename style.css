@@ -1,0 +1,588 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+.gridContainer {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: 
+  "header header header "
+  "header header header "
+  "main main main"
+  "footer footer footer";
+}
+
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+
+
+#footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.main-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color:transparent
+}
+
+.fondo {
+  background-image: url("./imagenes/contactos.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center
+
+}
+
+.fondo2 {
+  background-image: url("./imagenes/aguuua.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center
+
+}
+
+#tituloPrincipal {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 200px;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 5px;
+}
+
+#subtitulo {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font: weight 300px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  
+}
+
+h3 {
+  color: black;
+  text-align: center;
+}
+
+form {
+  color: black;
+  text-align: center;
+}
+
+ul li {
+  display: inline;
+  margin: 5px;
+  position: relative;
+}
+
+ul {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  background-color: transparent;
+  
+}
+
+ul ul {
+  display: none;
+  list-style: inside;
+  position: absolute
+}
+
+
+ul li a {
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+  margin-right: 5px;
+  border-right-style: solid;
+  padding-right: 5px;
+}
+
+
+
+
+ul li:hover ul {
+  display: block;
+  transform: translateX(50px);
+
+}
+
+ul ul li {
+  display: block;
+  margin: 20px;
+  text-align: justify;
+}
+
+#inicio__form {
+  border-style: solid 10px;
+  background-color: transparent;
+  
+}
+
+.buttonstyle {
+  background-color: orange;
+  color: black;
+  border-radius: 6px;
+  display: inline;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+form button a {
+  color: black;
+  text-decoration: none;
+}
+
+.pages__h1 {
+  font-family: 'Roboto', sans-serif;
+  animation-delay: 0s;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: animame;
+}
+
+@keyframes animame {
+  0% {opacity: 0; }
+  100% {opacity: 100%;}
+}
+
+.articleActividades {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.padre_flex_actividades,
+.padre_flex_footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.article__h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+
+.article__p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.linea {
+  border-top: 1px solid black;
+  height: 2px;
+  margin: 20px auto 0 auto;
+}
+
+.iscripciones__section--h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  text-align: left;
+  margin-left: 60px;
+}
+
+#inscripciones__form {
+  background-color: white;
+  width: 600px;
+  margin-left: 0px;
+  padding: 10px;
+  text-align: left;
+}
+
+.inscripciones__form--imput {
+  margin-left: 5px;
+  font-size: 15px;
+  height: 50px;
+  width: 500px;
+}
+
+.inscripciones__form--h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  text-align: center ;
+  font-weight: bold;
+}
+
+.pages__texto {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+.contacto__header--h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 500px;
+ transform: translatey(-300px) ;
+ transition: all 10;
+
+}
+
+.contacto__header--h2:hover { font-size: 100px; 
+}
+
+
+
+
+.contacto__h3 {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  font-size: 30px;
+  margin-left: 100px;
+}
+
+.contacto__h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin-left: 100px;
+}
+
+.contacto__form--imput {
+  margin-left: 300px;
+  font-size: 15px;
+  height: 50px;
+  width: 500px;
+}
+
+
+.contacto__form--textarea {
+  width: 500px;
+  height: 100px;
+  border: 1px solid;
+  margin-left: 300px;
+}
+
+.contacto__form--buttom {
+  background-color: lightskyblue;
+  color: black;
+  border: none;
+  padding: 20px;
+  margin-left: 500px;
+  width: 300px;
+}
+
+.quienesSomos__fondo {
+  background-image: url("./imagenes/fonfopro.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+}
+
+.quienesSomos__section__h2--izquierda {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  text-align: left;
+  margin-left: 60px;
+}
+
+.quienesSomos__texto--izquierda {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 800px;
+}
+
+.quienesSomos__section__h2--derecha {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  text-align: right;
+  margin-right: 60px;
+}
+
+.quienesSomos__texto--derecha {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: left;
+  margin-left: 800px;
+  margin-right: 50px
+}
+
+
+img {
+  width: 400px;
+  height: 400px;
+}
+
+footer img {
+  width: 300px;
+  height: 300px;
+}
+
+
+
+
+.gridContainerInscripciones {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 50px auto 300px;
+  grid-template-areas: 
+  "header header "
+  "main aside"
+  "footer footer";
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+
+aside {
+  grid-area: aside;
+}
+
+#imgAside {
+  width:100%;
+  height:100%;
+  object-fit: contain;
+}
+
+#border {
+  
+    border: 2px solid black;
+    margin-right: 10px;
+    margin-left: 10px;
+  
+    
+    }
+
+
+    /*GRID2*/
+
+
+
+    header {
+      grid-area: header;
+    }
+    
+    main {
+      grid-area: main;
+      justify-content: center;
+    }
+    
+    footer {
+      grid-area: footer;
+      justify-content: end;
+    }
+    
+
+
+    @media screen and (min-width:1200px) 
+
+    { @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+      
+      
+      
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      
+      
+      
+      .gridContainer {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: 
+        "header header header "
+        "header header header "
+        "main main main"
+        "footer footer footer";
+      }
+      
+      .gridContainerInscripciones {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 50px auto 300px;
+        grid-template-areas: 
+        "header header "
+        "main aside"
+        "footer footer";
+      }
+
+  
+      
+    }
+
+    @media screen and (max-width:320px)
+    
+    {
+
+      .gridContainerInscripciones {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 200px auto 300px;
+        grid-template-areas: 
+        "header  "
+        "main "
+        "footer";
+      }
+
+      .gridContainer {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns:auto;
+        grid-template-rows: 400px 600px auto;
+        grid-template-areas: 
+       "header "
+       "main"
+       "footer";
+      }
+
+      .nav {
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        background-color:transparent
+      }
+
+      ul li a {
+        font-size: 10px;
+      }
+      #tituloPrincipal {
+        font-size: 60px;
+      }
+      
+      #subtitulo {
+         font-size: 10px;
+      }
+
+      .iscripciones__section--h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 25px;
+        text-align: left;
+       
+      }
+      
+      #inscripciones__form {
+        background-color: white;
+        width: 300px;
+  
+        
+        text-align: left;
+      }
+      
+      .inscripciones__form--imput {
+        margin-left: 5px;
+        font-size: 15px;
+        height: 25px;
+        width: 250px;
+      }
+      
+      .inscripciones__form--h3 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        text-align: center ;
+        font-weight: bold;
+      }
+      
+      .pages__texto {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+      }
+
+      
+      #footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;}
+
+        footer img {
+          width: 150px;
+          height: 150px;
+        }
+
+
+      }
+
+
+
+
+
+
+      #inscripciones__form {
+        margin-left: 10px;
+      }
+
+    
+
+      
+    
+
+
+    
