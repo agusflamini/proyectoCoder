@@ -279,11 +279,11 @@ form button a {
   text-align: center;
   margin-top: 500px;
  transform: translatey(-300px) ;
- transition: all 10;
+ transition: all 15;
 
 }
 
-.contacto__header--h2:hover { font-size: 100px; 
+.contacto__header--h2:hover { font-size: 150px; 
 }
 
 
