@@ -89,7 +89,18 @@ footer {
   text-align: center;
   margin-top: 200px;
   margin-bottom: 5px;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-name: probando;
 }
+@keyframes probando {
+  0% {color:white}
+  25% { color:blue}
+  50% { color: lightseagreen}
+  75% {color:cornflowerblue}
+  100% { color:white}
+}
+
 
 #subtitulo {
   font-family: 'Open Sans', sans-serif;
