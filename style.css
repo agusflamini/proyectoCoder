@@ -211,6 +211,9 @@ form button a {
   border-bottom: 1px solid black;
 }
 
+.imagen:hover {
+  transform:scale(1.1);}
+
 .padre_flex_actividades,
 .padre_flex_footer {
   display: flex;
@@ -332,6 +335,7 @@ form button a {
   padding: 20px;
   margin-left: 500px;
   width: 300px;
+  margin-bottom: 15px;
 }
 
 .quienesSomos__fondo {
@@ -383,6 +387,17 @@ footer img {
   width: 300px;
   height: 300px;
 }
+
+.gira:hover{ 
+  
+-webkit-transform: rotateY(180deg);
+-webkit-transform-style: preserve-3d;
+transform: rotateY(180deg);
+transform-style: preserve-3d;}
+
+
+
+
 
 
 
