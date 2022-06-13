@@ -66,7 +66,7 @@ footer {
 
 
 .fondo {
-  background-image: url("./imagenes/contactos.jpeg");
+  background-image: url("./imagenes/fondo.jfif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center
@@ -177,21 +177,17 @@ form button a {
   100%{margin-left: 100%;}
 }
 
-.articleActividades {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-}
 
 .imagen:hover {
   transform:scale(1.1);}
 
-.padre_flex_actividades,
+/*.padre_flex_actividades,
 .padre_flex_footer {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-evenly;
-}
+} */
 
 .article__h2 {
   font-family: 'Open Sans', sans-serif;
@@ -578,10 +574,13 @@ aside {
 
       #inscripciones__form {
         margin-left: 10px;
-      }
+      } */
       
 
-    
+    #imgactividades {
+      height: 300px;
+      width: 300px;
+    }
 
       
     
