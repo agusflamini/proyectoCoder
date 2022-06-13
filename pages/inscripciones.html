@@ -5,124 +5,183 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>watherblue</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
     
 </head>
-<body class="fondo2" class="inscripciones__fondo" > 
+<body  > 
 
 <div class="gridContainerInscripciones">
   
- 
   <header >
-    <h1 class="pages__h1">WatherBlue</h1>
-    
-    <nav >
-        <ul class="nav">
-            <li><a href="../index.html">INICIO</a></li>
-            <li><a href="actividades.html">ACTIVIDADES</a>
-                <ul>
-                    <li>AQUAGYM</li>
-                    <li>MATRONATACION</li>
-                    <li>NATACIÓN NIÑOS</li>
-                    <li>ENTRENAMIENTO</li>
+    <div class="container-fluid">
+   <div class="row" >
 
-                </ul>
-            </li>
-            <li><a href="inscripciones.html">INSCRIPCIONES</a></li>
-            <li><a href="quienessomos.html">QUIENES SOMOS</a></li>
-            <li><a href="contacto.html">CONTACTO</a></li>
-        </ul>
-    </nav>
- 
+       <div class="col-sm-12 col-md-12 col-xl-12">
+        
+           
+<nav class="navbar navbar-expand-lg bg-light sticky-top">
+<img src="../imagenes/logo1.jpg" alt="logo">
+<a class="navbar-brand" href="#">WATERBLUE</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+ <span class="navbar-toggler-icon"></span>
+</button>
+
+ <div class="collapse navbar-collapse" id="navbarNav">
+   <ul class="navbar-nav">
+     <li class="nav-item">
+       <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link active" aria-current="page" href="actividades.html">ACTIVIDADES</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link active" aria-current="page" href="inscripciones.html">INSCRIPCIONES</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link active" aria-current="page" href="quienessomos.html">QUIENES SOMOS</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link active" aria-current="page" href="contacto.html">CONTACTO</a>
+     </li>
+     </ul>
+     </div>
+   </nav>
+
+   <div class="row">
+   <h1 class="pages__h1">INSCRIPCIONES</h1>
+   </div>
+  </div>
 </header>
 
-<aside>
-  <img src="../imagenes/nadadora.jpg" alt="nadadora" id="imgAside">
-  
-</aside>
 
 
-    <main >
-       <h2 class="iscripciones__section--h2">CREA UN USUARIO <br> PARA INSCRIBIRTE</h2>
+  <main >
 
-      
-       <article  >
+    <div clas="container-fluid">
+      <div class="row">
 
-¨
-       <form id="inscripciones__form"> 
-      <h3 class="inscripciones__form--h3">COMPLETA LOS SIGUIENTES DATOS</h3>
-      
-       <input name="name" type="text" placeholder=" Nombres y Apellidos" class=" inscripciones__form--imput">
-      <br>
-      <br>
-       <input  name="dni" type="text"  placeholder="DNI" class=" inscripciones__form--imput">
-       <br>
-       <br>
-       <label class="pages__texto">Fecha de Nacimiento </label>
-       <br>
-       <input name="nacimiento" type="date"  placeholder="Fecha de nacimiento" class=" inscripciones__form--imput">
-       <br>
-       <br>
-        <input name="email" type="text" placeholder="E-MAIL" class=" inscripciones__form--imput">
-        <br>
-        <br>
-          <label class="pages__texto">SEXO</label>
-          <br>
-          <input type="radio" name="sexo" value="masculino">Masculino
-          <input type="radio" name="sexo" value="femenino">Femenino
-          <br>
-          <br>
-        <input name="password" type="password" placeholder="Genere una clave para su acceso" class=" inscripciones__form--imput">
-        <br>
-        <br>
+      <h2 class="iscripciones__section--h2 text-bg-info p-3">CREA UN USUARIO PARA INSCRIBIRTE</h2>
+    </div>
+
+
+      <div class="row">
+         <div class="col-sm-12 col-md-6 col-xl-6">
+
+          
+           
+
+          
+              <input type="text" class="form-control" placeholder="NOMBRE Y APELLIDO" aria-label="First name">
+              <br>
+              <input type="text" class="form-control" placeholder="DNI" aria-label="Last name">
+              <br>
+              <input type="date" class="form-control" placeholder="FECHA DE NACIMIETO" aria-label="Last name">
+              <br>
+              <input type="text" class="form-control" placeholder="EMAIL" aria-label="Last name">
+              <br>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="GENERE UNA CLAVE" aria-label="Last name"></label>
+              
+          
+
+              <legend class="col-form-label pt-0">SEXO</legend>
+            
+           
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                  <label class="form-check-label" for="gridRadios1">
+                    MASCULINO
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                  <label class="form-check-label" for="gridRadios1">
+                    FEMENINO
+                  </label>
+                </div>
+            
         
-       <label class="pages__texto" for="notificaciones">Acepto recibir comunicacion por email</label>
-       
-        <input name="notificaciones" type="checkbox"> 
-        <br>
-        <br>
+
+
+
+
+           <article  >
+         
+        
+        
+     
+      
+          <div class="col-auto">
+            <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+            <select class="form-select" id="autoSizingSelect">
+              <option selected>SELECCIONE SU ACTIVIDAD</option>
+              <option value="1">Matronatación</option>
+              <option value="2">Aquagym</option>
+              <option value="3">Natación niños</option>
+              <option value="4">Entrenamiento</option>
+            </select>
+          </div>
+
+          <div class="col-auto">
+            <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+            <select class="form-select" id="autoSizingSelect">
+              <option selected>SELECCIONE SU PLAN</option>
+              <option value="1">8 PASES</option>
+              <option value="2">12 PASES</option>
+              <option value="3">24 PASES</option>
+              
+            </select>
+
+            <div class="col-auto">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+                <label class="form-check-label" for="autoSizingCheck">
+                  ACEPTO RECIBIR NOTIFICACIONES
+                </label>
+              </div>
+            </div>
+
+         
+
+            <br>
+      <br>
+      </fieldset>
+      <button type="submit" class="btn btn-outline-info btn-lg">ENVIAR</button>
+      <button type="reset" class="btn btn-outline-warning btn-lg">BORRAR</button>
+      </form>
     
-   <h3 class="inscripciones__form--h3">SELECCIONE</h3>
-    <label class="pages__texto" for="actividad">Actividad</label>
-    <select name="ACTIVIDAD" class=" inscripciones__form--imput">
-        <option value="aquagym">AQUAGYM</option>
-        <option value="matronatacion">MATRONATACION</option>
-        <option value="niños">NATACION PARA NIÑOS</option>
-        <option value="entrenamiento">ENTRENAMIENTO</option>
-        <option value="rehabilitacion">REHABILITACION</option>
-      </select>
-      <br>
-      <br>
-    <label  class="pages__texto" for="plan">PLAN</label>
-    <select name="plan" class=" inscripciones__form--imput">
-        <option value="4">4 PASES</option>
-        <option value="8">8 PASES</option>
-        <option value="12">12 PASES</option>
-        <option value="20">20 PASES</option>
-    </select>
-    <br>
-    <br>
-    </fieldset>
-    <button class="buttonstyle" type="submit"  name="CONTINUAR" value="CONTINUAR">ENVIAR</button>
-    <button class="buttonstyle" type="reset"  name="BORAR" value="¨BORRAR">BORRAR</button>
-    </form>
+    
+      </article>
+         </div>
+    
   
-    
-    </article>
-  </main>
+
+   
+         <div class="col-sm-12 col-md-6 col-xl-6">
+         <aside>
+           
+           <img src="../imagenes/nadadora.jpg" alt="nadadora" id="imgAside">
+       
+         </aside>
+        </div>
+
+        </main>   
+   </div>
+
+</div>
+
  
  <footer>
-        
-  <article id="footer">
-      <img src="../imagenes/nadadora.jpg" alt="nadadora" width="300" height="300">
-      <img src="../imagenes/pesas.jpg" alt="aquagym" width="300" height="300">
-      <img src="../imagenes/bebe.jpg" alt="matronatacion" width="300" height="300" >
-      <img src="../imagenes/rehabilitacion.jpg" alt="rehabilitacion" width="300" height="300" >
-  </article>  
+
+
+  
+  
 </footer>  
 
 </div>
-             
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>             
 </body>
  
 

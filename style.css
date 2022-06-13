@@ -394,11 +394,7 @@ aside {
   grid-area: aside;
 }
 
-#imgAside {
-  width:100%;
-  height:100%;
-  object-fit: contain;
-}
+
 
 #border {
   
@@ -580,6 +576,11 @@ aside {
     #imgactividades {
       height: 300px;
       width: 300px;
+    }
+    #imgAside {
+      width:100%;
+      height:100%;
+      object-fit: contain;
     }
 
       
