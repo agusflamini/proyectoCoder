@@ -16,12 +16,58 @@
 
 <body class="fondo" >
 
-    <div class="gridContainer">
+
       
         <header >
-            <h1 id="tituloPrincipal">WatherBlue</h1>
-            <h2 id="subtitulo" class="animate__animated animate__flash">VIVI LA EXPERIENCIA DEL AGUA</h2>
-            <nav >
+             <div class="container-fluid">
+            <div class="row" >
+
+                <div class="col-sm-12 col-md-12 col-xl-12">
+                    
+      <nav class="navbar navbar-expand-lg bg-light sticky-top">
+        <img src="imagenes/logo1.jpg" alt="logo">
+         <a class="navbar-brand" href="#">WATERBLUE</a>
+         
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pages/actividades.html">ACTIVIDADES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pages/inscripciones.html">INSCRIPCIONES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pages/quienessomos.html">QUIENES SOMOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pages/contacto.html">CONTACTO</a>
+              </li>
+              </ul>
+              </div>
+            </nav>
+        <div class="container-fluid">
+
+            <div class="row">
+
+            <div class="col-sm-2 col-md-8 col-xl-12">
+                <h1 class="text-center fs-200 mt-100" id="tituloPrincipal">WatherBlue</h1>
+            </div>
+            </div> 
+            
+            
+            <div class="row">
+
+                <div class="col-sm-12 col-md-12 col-xl-12 ">
+                 <h2  id="subtitulo" class="animate__animated animate__flash text-center">VIVI LA EXPERIENCIA DEL AGUA</h2>
+                </div> 
+            </div>
+            </div>
+
+            
+            <!--<nav>
                 <ul class="nav">
                     <li><a href="./index.html">INICIO</a></li>
                     <li><a href="pages/actividades.html">ACTIVIDADES</a>
@@ -37,44 +83,64 @@
                     <li><a href="pages/quienessomos.html">QUIENES SOMOS</a></li>
                     <li><a href="pages/contacto.html">CONTACTO</a></li>
                 </ul>
-            </nav>
+            </nav> --->
+                </div>
+            </div>
+        </div>
         </header>
         
         
         <main>
-            <section class="main-flex"> 
-               
-                  
-                    <form id="inicio__form">
-                        <h3>SOCIOS</h3>
-
-                        <label>DNI</label>
-                        <input type="text">
-                        <br>
-
-                        <label>CLAVE</label>
-                        <input type="pasword"> 
-
-                        <button type="submit" class="buttonstyle">INGRESAR</button>
-
-                       
-
-                        <button type="submit" class="buttonstyle"><a
-                                href="file:///C:/Users/agust/OneDrive/Escritorio/proyecto1/inscripciones.html">REGISTRATE</a></button>
-                    </form>
-               
-            </section>
-        </main>
-
-        <footer >
-            <div id="footer">
-                <img class="gira" src="imagenes/nadadora.jpg" alt="nadadora">
-                <img src="imagenes/pesas.jpg" alt="aquagym">
-                <img src="imagenes/bebe.jpg" alt="matronatacion">
-                <img src="imagenes/rehabilitacion.jpg" alt="rehabilitacion">
+            <div class="container-fluid">
+                <div class="row justify-content-center" >
+                    <div class="col-xl-4 col-sm-4">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col">
+                                  <input type="text" class="form-control" placeholder=DNI aria-label="DNI">
+                                </div>
+                                <div class="col">
+                                  <input type="password" class="form-control"  placeholder=CLAVE  id="inputPassword4">
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-info">INGRESAR</button>
+                                  </div>
+                                  <div class="col-12">
+                                    <button type="submit" class="btn btn-warning">NO SOY SOCIO</button>
+                                  </div>
+                              </div>
+                  </form>
+                  </div>
+                </div>
             </div>
+        </main>
+        <footer >
+            
+            <div class="container-fluid">
+                <div class="row" >
+                    <div class="col-sm-6 col-md-6 col-xl-3" >
+                        <img class="gira" src="imagenes/nadadora.jpg" alt="nadadora">
+                    </div> 
+                    <div class="col-sm-6 col-md-6 col-xl-3">
+                        <img src="imagenes/pesas.jpg" alt="aquagym">
+                    </div>  
+                    <div class="col-sm-6 col-md-6 col-xl-3">
+                        <img src="imagenes/bebe.jpg" alt="matronatacion">
+                    </div>  
+                    <div class="col-sm-6 col-md-6 col-xl-3">
+                        <img src="imagenes/rehabilitacion.jpg" alt="rehabilitacion">
+                    </div>   
+            </div>
+            </div>
+        
+             
+           
+
         </footer>
 
-    </div>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
+
+
+

@@ -82,12 +82,12 @@ footer {
 }
 
 #tituloPrincipal {
-  color: white;
+ 
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
+  
   font-size: 200px;
-  text-align: center;
-  margin-top: 200px;
+  
+  margin-top: 100px;
   margin-bottom: 5px;
   animation-duration: 10s;
   animation-iteration-count: infinite;
@@ -122,35 +122,11 @@ form {
   text-align: center;
 }
 
-ul li {
-  display: inline;
-  margin: 5px;
-  position: relative;
+nav img {
+  width: 60px;
+  height: 60px;
 }
 
-ul {
-  position: fixed;
-  top: 0px;
-  right: 0px;
-  background-color: transparent;
-  
-}
-
-ul ul {
-  display: none;
-  list-style: inside;
-  position: absolute
-}
-
-
-ul li a {
-  color: black;
-  font-size: 15px;
-  text-decoration: none;
-  margin-right: 5px;
-  border-right-style: solid;
-  padding-right: 5px;
-}
 
 
 
@@ -161,11 +137,6 @@ ul li:hover ul {
 
 }
 
-ul ul li {
-  display: block;
-  margin: 20px;
-  text-align: justify;
-}
 
 #inicio__form {
   border-style: solid 10px;
