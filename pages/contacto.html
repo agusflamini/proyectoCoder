@@ -11,47 +11,52 @@
 </head>
 <body>
    
-    <header class="fondo">
+    <header >
         <div class="container-fluid">
-
-    <div class="row"> 
-        <div class="col-sm-4 col-md-6 col-xl-2">   
-        <h1 class="pages__h1">WatherBlue</h1>
-        </div>
-    </div>
+       <div class="row" >
     
-    <div class="row">
-        <div class="col-sm-6 col-md-7 col-xl-3"></div>
-        <h2 class="contacto__header--h2">CONTACTANOS</h2>
-        </div>
-    </div>
-    
-    <div class="row">
-        <div class="col-sm-1 col-md-3 col-xl-6">
-        <nav >
+           <div class="col-sm-12 col-md-12 col-xl-12">
             
-            <ul class="nav">
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="actividades.html">ACTIVIDADES</a>
-                    <ul>
-                        <li>AQUAGYM</li>
-                        <li>MATRONATACION</li>
-                        <li>NATACIÓN NIÑOS</li>
-                        <li>ENTRENAMIENTO</li>
-
-                    </ul>
-                </li>
-                <li><a href="inscripciones.html">INSCRIPCIONES</a></li>
-                <li><a href="quienessomos.html">QUIENES SOMOS</a></li>
-                <li><a href="./contacto.html">CONTACTO</a></li>
-            </ul>
-        </nav>
-      </div>
-    </div> 
+               
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+    <img src="../imagenes/logo1.jpg" alt="logo">
+    <a class="navbar-brand" href="#">WATERBLUE</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+    </button>
+    
+     <div class="collapse navbar-collapse" id="navbarNav">
+       <ul class="navbar-nav">
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="actividades.html">ACTIVIDADES</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="inscripciones.html">INSCRIPCIONES</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="quienessomos.html">QUIENES SOMOS</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="contacto.html">CONTACTO</a>
+         </li>
+         </ul>
+         </div>
+       </nav>
+    
+       <div class="row">
+       <h1 class="pages__h1">CONTACTÁCTANOS</h1>
+       </div>
+      
     </header>
+    
+    
+    
 
 
-        <article>
+        <section class="text-bg-info p-3">
             <div class="container-fluid">
     <div class="row">
         <div class="col-sm-3 col-md-4 col-xl-1">       
@@ -64,41 +69,52 @@
         <h4 class="contacto__h4">Escribe tus datos y cuentanos tu inquietud</h4>
        </div> 
     </div>    
-        
-    <div class="row"> 
+        </section>
+
+
+        <main>
+            <div class="container-fluid">
+    <div class="row vh-100 justify-content-center y align-items-center"> 
         <div class="col-sm-12 col-md-8 col-xl-6">
             <form >
-           <input name="nombre" type="text" placeholder="NOMBRE" required class="contacto__form--imput">
-           <br>
-           <br>
-           <input name="apellido" type="text" placeholder="APELLIDO" required  class="contacto__form--imput">
-           <br> 
-           <br>
-           <br>
-           <input name="correo" type="text" placeholder="CORREO ELECTRONIC0" required  class="contacto__form--imput">
-           <br>
-           <label  class="pages__texto">
-            <br>
-            <input   type="radio" name="socio" value="si">soy socio
-            <input   type="radio" name="socio" value="no">no soy socio
-           </label>
-           <br>
-           <br>
-           <input name="asunto" type="text" placeholder="ASUNTO"  class="contacto__form--imput">
-           <br>
-           <br>
-           <br>
-           <textarea class="contacto__form--textarea" placeholder="DESCRIPCIÓN"></textarea>
-           <br>
-           <br>
-           <button class="contacto__form--buttom" type="submit"  name="CONTINUAR" value="CONTINUAR">ENVIAR</button>
+                <div class="input-group">
+                    <span class="input-group-text">NOMBRE Y APELLIDO</span>
+                    <input type="text" aria-label="First name" class="form-control">
+                    <input type="text" aria-label="Last name" class="form-control">
+                  </div>
+                 <br>
+                  <div class="input-group flex-nowrap">
+                  <span class="input-group-text" id="addon-wrapping">@</span>
+                  <input type="text" class="form-control" placeholder="INGRESE SU EMAIL" aria-label="Username" aria-describedby="addon-wrapping">
+                  </div>
+                  <br>
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">ASUNTO</span>
+                    <input type="text" class="form-control" aria-label="ASUNTO" aria-describedby="basic-addon1">
+                  </div>
+                  <br>
+                  <div class="input-group">
+                    <span class="input-group-text">DESCRIPCIÓN</span>
+                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                  </div>
+                  <br>
+                  <br>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1">SOY SOCIO</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">NO SOY SOCIO</label>
+                  </div>
+                  <button class="contacto__form--buttom" type="submit"  name="CONTINUAR" value="CONTINUAR">ENVIAR</button>
                
            
             </form>
          </div>    
     </div>   
-            </div>
-        </article>
+    </div>        
+</main>
     
     <footer >
         <div class="container-fluid">
