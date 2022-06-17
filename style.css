@@ -40,6 +40,10 @@ footer {
 }
 
 
+
+footer {
+  background-color: white;
+}
 #footer {
   display: flex;
   justify-content: space-around;
@@ -92,7 +96,30 @@ footer {
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-name: probando;
+  display: 1;
 }
+
+@media (min-width:576) and (max-width:991px) {
+  #tituloPrincipal { font-size: 80px;
+
+  }
+
+}
+
+@media  (max-width:575px) {
+  #tituloPrincipal { font-size: 50px;
+
+  }
+  .fondo{ 
+    background-color: aliceblue;
+    background-image: none;
+  }
+
+}
+
+
+
+
 @keyframes probando {
   0% {color:white}
   25% { color:blue}
@@ -127,7 +154,9 @@ nav img {
   height: 60px;
 }
 
-
+.boton:hover{
+  background-color:aliceblue;
+  border: solid orange;}
 
 
 
@@ -181,6 +210,15 @@ form button a {
 .imagen:hover {
   transform:scale(1.1);}
 
+@media (max-width:992px) {
+  .imagen{width: 300px; height: 300px;
+
+
+}
+}
+
+
+
 /*.padre_flex_actividades,
 .padre_flex_footer {
   display: flex;
@@ -191,7 +229,7 @@ form button a {
 
 .article__h2 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 50px;
+  font-size: 45px;
   text-align: center;
 }
 
@@ -200,7 +238,7 @@ form button a {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   text-align: center;
-  margin-left: 50px;
+  
 }
 
 .linea {
@@ -267,7 +305,7 @@ form button a {
 .contacto__h4 {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
-  margin-left: 100px;
+  
 }
 
 .contacto__form--imput {
@@ -293,15 +331,7 @@ form button a {
   #DAF7A6);
 }
 
-.contacto__form--buttom {
-  background-color: lightskyblue;
-  color: black;
-  border: none;
-  padding: 20px;
-  margin-left: 500px;
-  width: 300px;
-  margin-bottom: 15px;
-}
+
 
 .quienesSomos__fondo {
   background-image: url("./imagenes/fonfopro.jpg");
@@ -323,7 +353,8 @@ form button a {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   font-weight: bolder;
-  margin:80px
+  margin:80px;
+  
  
   ;
  
@@ -331,10 +362,9 @@ form button a {
 
 .quienesSomos__section__h2--derecha {
   font-family: 'Open Sans', sans-serif;
-  font-size: 50px;
-  text-align: right;
-  margin-right: 60px;
-}
+  font-size: 15px;
+  font-weight: bolder;
+  margin:80px;}
 
 .quienesSomos__texto--derecha {
   font-family: 'Open Sans', sans-serif;
@@ -601,7 +631,7 @@ aside {
       
     }
     #Divpages2 {
-      background-image: url("./imagenes/niñas.jpg") ;
+      background-image: url("./imagenes/swimming-pool-water-blue-athlete-fitness-exercise-F100025184.jpg") ;
       background-repeat: no-repeat;
       background-size: cover;
 
