@@ -1,0 +1,27 @@
+@keyframes probando {
+    0% {color:white;}
+    25% { color:#00f8de;}
+    50% { color: #fef41b;}
+    75% {color:#f7dc6f;}
+    100% { color:#f5b041;}
+  }
+  @keyframes animame {
+    0% {
+      margin-left: 0%;
+    }
+    20% {
+      margin-left: 20%;
+    }
+    40% {
+      margin-left: 40%;
+    }
+    60% {
+      margin-left: 60%;
+    }
+    80% {
+      margin-left: 80%;
+    }
+    100% {
+      margin-left: 100%;
+    }
+  }

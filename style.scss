@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+@import "animaciones";
+@import "variables";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+   /* body{
+     /* overflow:hidden*/
+    */
+
+    .fondo{ background: {image: url("./imagenes/swimming-lane-underwater-plain-1-820x532.webp");
+                         repeat: no-repeat;
+                         size: cover;
+                         position: top center;
+                         
+                         }
+                         
+                         
+            @media  (max-width:575px) { 
+                                        background-color: aliceblue;
+                                        background-image: none;
+                                      }             
+          }
+
+
+    #tituloPrincipal { font: { family: 'Roboto', sans-serif;
+                               size: 150px; }
+
+        
+                      margin: {top: 100;
+                               bottom: 5px; }
+
+                      animation: {duration: 10s;
+                                  iteration-count: infinite;
+                                  name: probando;}
+
+                     @media (min-width:576) and (max-width:991px)  
+                                 {
+                                    font-size: 80px;
+                                 }
+                                
+                      @media  (max-width:575px) 
+                                 { 
+                                   font-size: 50px;
+                                 }
+                                 
+                                
+                                
+                                        
+                      
+                    }
+
+               
+
+     #subtitulo { font: { family:$h2-font;
+                          weight: 300px;
+                          size: 20px;
+                          weight: bolder ; }
+
+                          color: black;
+                         text-align: center;
+                         margin-top: 10px;
+                        
+                }                
+
+
+
+
+footer {
+          background-color: white;
+          border: solid black;
+
+                  #info {
+                    margin: 50px;
+                  }
+
+                  #social{
+                    width: 60px;
+                    height: 60px;
+                  }
+                  li { 
+                    list-style: none;
+                  }
+                  #titleList {
+                    font-weight: bold;
+                
+                  }
+        }
+
+form {
+        color: black;
+        text-align: center;
+        .boton:hover{
+                       background-color:aliceblue;
+                       border: solid orange;
+                    }
+       }
+
+nav img {
+          width: 60px;
+          height: 60px;
+        }
+
+
+
+  .pages__h1 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+    animation-delay: 0s;
+    animation-duration: 6s;
+    animation-iteration-count: 3;
+    animation-name: animame;
+  }
+
+
+
+  main { 
+            .h2 { font: { family: $h2-font;
+                                  size: $h2-size;}
+                          text-align: center; }
+
+            p {  font: { family: 'Open Sans', sans-serif;
+                                  size: 20px;
+                                   }  }
+            .imagen {  width: 400px;
+                       height: 400px;
+
+                             
+
+                       &:hover { transform:scale(1.1);} 
+
+                       @media (max-width:992px) {
+                              width: 300px; height: 300px; }
+                     }                  
+          
+            h4 { font: { family: $h2-font;
+                         size: 30px; } }
+                        
+        }                
+          
+          
+   
+
+
+
+main {
+       .h2__div { font: { family: $h2-font;
+                  size: $h2-size;}
+                 text-align: center;
+                 margin-top: 80px;
+
+
+                }
+
+
+        .p__div { font: { family: $h2-font;
+                  size: 15px;
+                  weight: bolder;}
+                  margin:80px;
+                }
+
+        .p__div2  { font: { family: $h2-font;
+                    size: 15px;
+                    weight: bolder;}
+                    margin:100px;
+                  }     
+
+        #Divpages {  background: {image: url("./imagenes/pesas.jpg") ;
+                             repeat: no-repeat;
+                             size: cover;}
+
+                      height: 300px;
+                  }
+             
+        #Divpages2 { background: {image: url("./imagenes/swimming-pool-water-blue-athlete-fitness-exercise-F100025184.jpg") ;
+                             repeat: no-repeat;
+                             size: cover;}
+
+                      height: 300px;
+                   }
+
+      }
+
+
+    
+    #imgAside {
+      width:100%;
+      height:100%;
+      object-fit: contain;
+    }
+
+
